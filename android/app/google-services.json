@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "277690376322",
+    "firebase_url": "https://kolesterol-8a498-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kolesterol-8a498",
+    "storage_bucket": "kolesterol-8a498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277690376322:android:ca1d78fd3c5cdf257dd49b",
+        "android_client_info": {
+          "package_name": "com.example.kolestrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFx04M0RwP9Py3mWwIawg8bGqzzh4gNa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

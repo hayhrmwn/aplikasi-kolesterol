@@ -1,0 +1,58 @@
+name: kolestrol
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  fl_chart: ^0.66.0
+  flutter_bluetooth_serial: ^0.4.0
+  permission_handler: ^10.2.0
+  firebase_core: ^3.1.1
+  firebase_storage: ^12.1.0
+  firebase_database: ^11.0.2
+  flutter_blue: ^0.8.0
+  async: ^2.11.0
+  tuple: ^2.0.2
+  cloud_firestore: ^5.0.2
+  # flutter_blue_plus: ^1.31.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/image/splash-screen.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets :
+      - assets/image/ScanQR.png
+      - assets/image/Search.png
+      - assets/image/Bluetooth.png
+      - assets/image/jam_qr-code.png
+      - assets/image/no-data.png
+      - assets/image/check-first.png
+      - assets/image/check.png
+
+  fonts :
+      - family: Poppins
+        fonts:
+          - asset: assets/fonts/Poppins-Regular.ttf
+          - asset: assets/fonts/Poppins-Bold.ttf
+            weight: 700
+      - family: Plus Jakarta Sans
+        fonts:
+          - asset: assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf
+          - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
